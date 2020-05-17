@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스파르타코딩클럽</title>
+    <style>
+     .test1 {
+         color: red
+     }
+     #id_test1 {
+         color: blue
+     }
+     .test2, .test3 {
+         background-color: yellow
+     }
+     .test2 > div {
+         /*class 가 test2 인 태그 바로 아래 자식  div에 태그 영향 */
+         background-color: green
+     }
+     .test2 div {
+         /*class 가 test2 인 태그 바로 모든 div에 태그 영향 */
+         background-color: orange
+     }
+     #id_test_2 > div input[type=password]{
+         /* id가 id_test_2 바로 아래 div 의 타입 password */
+     }
+     .test1.test2 {
+         /* test1,2 모두 가지고 있는것에 적용 */
+         background-color: grey;
+     }
+    </style>
+</head>
+
+<body>
+    <h1>로그인 페이지</h1>
+    <div class= "test1 test2 test3" id="id_test1">
+        <p>
+            ID: <input type="text" />
+        </p>
+        <p>
+            PW: <input type="password" />
+        </p>
+    </div>
+    <div>
+    <button>로그인하기</button>
+</div>
+
+
+    <!-- selector  -->
+</body>
+
+</html>

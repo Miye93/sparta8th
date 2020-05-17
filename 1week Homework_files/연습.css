@@ -1,0 +1,17 @@
+p , div {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.posting-box {
+    max-width: auto;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px auto;
+    }
+.btn {
+    background-color: blue;
+    color: white;
+}
+.title_1, .title_2 {  
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 50px;
+}
